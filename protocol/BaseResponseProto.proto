@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+package protocol;
+
+option java_package = "com.chipsk.im.common.protocol";
+option java_outer_classname = "IMResponseProto";
+
+message IMResProtocol {
+  required int64 responseId = 2;
+  required string resMsg = 1;
+  required int32 type = 3;
+
+}

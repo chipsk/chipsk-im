@@ -1,0 +1,7 @@
+# Project exclude paths
+/im-client/target/
+/im-common/target/
+/im-route/target/
+/im-route-api/target/
+/im-server/target/
+/im-server-api/target/

@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package protocol;
+
+option java_package = "com.chipsk.im.common.protocol";
+option java_outer_classname = "DelayTaskProto";
+
+message DelayTaskProto {
+  required string id = 2;
+  required int64 resMsg = 1;
+
+}
